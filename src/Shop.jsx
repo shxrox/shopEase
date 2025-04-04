@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import NewArrivals from './components/Sections/NewArrivals';
 import content from './data/content.json';
 import Category from './components/Sections/Categories/Category';
+import Footer from './components/Footer/Footer';
 
 const Shop = () => {
   return (
@@ -15,6 +16,7 @@ const Shop = () => {
         content.categories.map((category, index) => (
           <Category key={index} title={category.title} data={category.data} />
         ))}
+             <Footer content={content?.footer}/>
     </>
   );
 };
