@@ -1,30 +1,74 @@
 {
-    "categories": [
-      {
-        "title": "Categories For Women",
-        "data": [
-          {
-            "title": "Hoodies & Sweatshirt",
-            "description": "Explore Now!",
-            "image": "./images/category-women-hoodies.jpg"
-          },
-          {
-            "title": "Coats & Parkas",
-            "description": "Explore Now!",
-            "image": "./images/category-women-coats.jpg"
-          },
-          {
-            "title": "Tees & T-Shirt",
-            "description": "Explore Now!",
-            "image": "./images/category-women-tshirts.png"
-          },
-          {
-            "title": "Shorts",
-            "description": "Explore Now!",
-            "image": "./images/category-women-shorts.jpg"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "categories": [
+    {
+      "title": " | Categories For Women",
+      "data": [
+        {
+          "title": "Hoodies & Sweatshirt",
+          "description": "Explore Now!",
+          "image": "./images/category-women-hoodies.jpg"
+        },
+        {
+          "title": "Coats & Parkas",
+          "description": "Explore Now!",
+          "image": "./images/category-women-coats.jpg"
+        },
+        {
+          "title": "Tees & T-Shirt",
+          "description": "Explore Now!",
+          "image": "./images/category-women-tshirts.png"
+        },
+        {
+          "title": "Shorts",
+          "description": "Explore Now!",
+          "image": "./images/category-women-shorts.jpg"
+        },
+        {
+          "title": "Hoodies & Sweatshirt",
+          "description": "Explore Now!",
+          "image": "./images/category-women-hoodies.jpg"
+        },
+        {
+          "title": "Coats & Parkas",
+          "description": "Explore Now!",
+          "image": "./images/category-women-coats.jpg"
+        }
+      ]
+    },
+    {
+      "title": "| Categories For Men",
+      "data": [
+        {
+          "title": "Shirts",
+          "description": "Explore Now!",
+          "image": "./images/category-men-shirts.jpg"
+        },
+        {
+          "title": "Jeans",
+          "description": "Explore Now!",
+          "image": "./images/category-men-jeans.jpg"
+        },
+        {
+          "title": "Hoodies & Sweetshirt",
+          "description": "Explore Now!",
+          "image": "./images/category-men-hoodies.png"
+        },
+        {
+          "title": "T-Shirts",
+          "description": "Explore Now!",
+          "image": "./images/category-men-tshirts.png"
+        },
+        {
+          "title": "Shirts",
+          "description": "Explore Now!",
+          "image": "./images/category-men-shirts.jpg"
+        },
+        {
+          "title": "Jeans",
+          "description": "Explore Now!",
+          "image": "./images/category-men-jeans.jpg"
+        }
+      ]
+    }
+  ]
+}
