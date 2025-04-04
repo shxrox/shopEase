@@ -1,3 +1,3 @@
 git add .
-git commit -m "Resolved merge conflicts between master and main"
+git commit -m "Updated"
 git push origin main
