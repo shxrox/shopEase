@@ -1,14 +1,15 @@
 import React from 'react'
-import SectionHeading from './SectionHeading/SectionHeading'
-import Card from '../Cards/Card'
+import SectionHeading from './SectionsHeading/SectionHeading'
+import Card from '../Card/Card'
 import Jeans from '../../assets/img/jeans.jpg'
 import Shirts from '../../assets/img/shirts.jpg'
 import Tshirts from '../../assets/img/tshirts.jpeg'
 import Dresses from '../../assets/img/dresses.jpg'
 import Kuertis from '../../assets/img/kurtis.jpg'
 import Joggers from '../../assets/img/joggers.jpg'
-import Carousel from 'react-multi-carousel'; // Import Carousel
-import 'react-multi-carousel/lib/styles.css'; // Import styles
+import Carousel from 'react-multi-carousel'; 
+import './NewArrivals.css';
+
 
 const items = [
   { 'title': 'Jeans', imagePath: Jeans },
@@ -16,13 +17,22 @@ const items = [
   { 'title': 'Tshirts', imagePath: Tshirts },
   { 'title': 'Dresses', imagePath: Dresses },
   { 'title': 'Kuertis', imagePath: Kuertis },
-  { 'title': 'Joggers', imagePath: Joggers }
+  { 'title': 'Joggers', imagePath: Joggers },
+  { 'title': 'Jeans', imagePath: Jeans },
+  { 'title': 'Shirts', imagePath: Shirts },
+  { 'title': 'Tshirts', imagePath: Tshirts },
+  { 'title': 'Dresses', imagePath: Dresses },
+  { 'title': 'Kuertis', imagePath: Kuertis },
+  { 'title': 'Joggers', imagePath: Joggers },
+  { 'title': 'Kuertis', imagePath: Kuertis },
+  { 'title': 'Joggers', imagePath: Joggers },
+  { 'title': 'Jeans', imagePath: Jeans }
 ];
 
 const NewArrivals = () => {
   return (
     <>
-      <SectionHeading title={'New Arrivals'} />
+      <SectionHeading title={'| New Arrivals'} />
       <Carousel
         responsive={responsive}
         autoPlay={false}
